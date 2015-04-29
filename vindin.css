@@ -1,0 +1,128 @@
+@font-face {
+    font-family: disney;
+    src: url(Waltograph42.otf);
+}
+@font-face {
+  font-family: land;
+  src: url(Started-by-a-mouse.ttf);
+}
+@font-face {
+  font-family: avenge2;
+  src: url(Heroesassemble2.ttf);
+}
+body {
+    background-color:#71A6FF;
+    font-family: avenge2
+}
+#left-top {
+    width:200em;
+    height:0em;
+    text-align:center
+}
+.navBar a {
+    text-decoration:none;
+    color: black;
+}
+.header a{
+    text-decoration:none;
+    color: black;
+}
+.header a:hover{
+    text-decoration:none;
+    color: black;
+}
+.header {
+    border:0em;
+    text-decoration:none;
+    background-color:#2B60DE;
+    border-top-left-radius:3em;
+    border-top-right-radius:3em;
+}
+#experiment {
+    width:37.5em;
+    height:13.4em;
+}
+#right-top {
+    font-family: disney;
+    width:400em;
+    height:0em;
+    font-size:5.5em;
+    text-align:center;
+}
+button {
+    margin-top:.4em;
+    height:2.4em;
+    width:8em;
+    font-size:1em;
+    border-top-left-radius:1em;
+    border-top-right-radius: 1em;
+    background-color:#356AE8;
+    border:blue;
+    margin-left:.4em;
+    font-weight:bold;
+    cursor:pointer;
+}
+button:hover {
+    transform:scale(1.1);
+    background-color:#2B60DE;
+}
+#intro a:hover {
+    text-decoration:none;
+    color:#5FFB17;
+}
+#intro {
+    text-decoration:none;
+    font-size:1.9em;
+    text-align:center;
+    margin-top:0em;
+    background:#2B60DE;
+    border-bottom-left-radius:.6em;
+    border-bottom-right-radius:.6em;
+    font-family: land;
+}
+#jimmy {
+    font-family: disney;
+    text-decoration:none;
+    color:yellow
+}
+table a {
+    text-decoration:none;
+    color:yellow
+}
+table a:hover {
+    text-decoration:none;
+    color:#5FFB17;
+}
+td {
+    width:30em;
+}
+#main_left {
+    width:37.5em;
+    text-align:center;
+}
+#mainRight {
+    width:400em;
+    background-color:#2B60DE;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    font-size:1em;
+    color: white;
+}
+#leftText{
+    float:left;
+    font-size: 1.59em;
+}
+pre{
+    margin-left: 2em;
+}
+#stitch7{
+    margin-top:3em;
+    margin-bottom:3em;
+    width: 30em;
+    height: 23em;
+}
+#vindin{
+    margin-bottom:3em;
+    width: 30em;
+    height: 23em;
+}

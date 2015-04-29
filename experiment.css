@@ -1,0 +1,543 @@
+@font-face {
+    font-family: disney;
+    src: url(Waltograph42.otf);
+}
+@font-face {
+  font-family: land;
+  src: url(Started-by-a-mouse.ttf);
+}
+@font-face {
+  font-family: avenge2;
+  src: url(Heroesassemble2.ttf);
+}
+@font-face {
+  font-family: jones;
+  src: url(SfFedoraShadow.ttf);
+}
+body {
+    background-color:#71A6FF;
+    font-family: avenge2
+}
+#left-top {
+    width:200em;
+    height:0em;
+    text-align:center
+}
+.header a{
+    text-decoration:none;
+    color: black;
+}
+.header a:hover{
+    text-decoration:none;
+    color: black;
+}
+.header {
+    border:0em;
+    text-decoration:none;
+    background-color:#2B60DE;
+    border-top-left-radius:3em;
+    border-top-right-radius:3em;
+}
+#experiment {
+    width:37.5em;
+    height:13.4em;
+    cursor:pointer;
+
+}
+#right-top {
+    font-family: disney;
+    width:400em;
+    height:0em;
+    font-size:5.5em;
+    text-align:center;
+}
+.navBar a {
+    text-decoration:none;
+    color: black;
+}
+.navBar {
+    margin-top:.4em;
+    height:2.4em;
+    width:8em;
+    font-size:1em;
+    border-top-left-radius:1em;
+    border-top-right-radius: 1em;
+    background-color:#356AE8;
+    border:blue;
+    margin-left:.4em;
+    font-weight:bold;
+    cursor:pointer;
+}
+.navBar:hover {
+    transform:scale(1.1);
+    background-color:#2B60DE;
+}
+#intro {
+    text-decoration:none;
+    font-size:2.3em;
+    text-align:center;
+    margin-top:0em;
+    background:#2B60DE;
+    border-bottom-left-radius:.6em;
+    border-bottom-right-radius:.6em;
+    font-family: land;
+}
+#intro a:hover {
+    text-decoration:none;
+    color:#5FFB17;
+}
+#jimmy {
+    font-family: disney;
+    text-decoration:none;
+    color:yellow;
+    font-size:.8em;
+}
+/* Intro */
+table a {
+    text-decoration:none;
+    color:yellow
+}
+table a:hover {
+    text-decoration:none;
+    color:#5FFB17;
+}
+#table {
+    text-align:center;
+}
+td {
+    width:30em;
+}
+#main_left {
+    width:37.5em;
+    text-align:center;
+}
+#main_right {
+    width:400em;
+    background-color:#2B60DE;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    text-align:center;
+    font-size:2em;
+}
+#stitch {
+    margin-top:0em;
+    width:37.5em;
+    height:37.1em;
+}
+#laptop {
+    margin-top:5em;
+    width:37.5em;
+    height:37.4em;
+}
+#summit {
+    margin-left:2em;
+    margin-right:2em;
+    width:15.25em;
+    height:4.69em;
+}
+#things {
+    margin-top:0em
+}
+.things {
+    margin-top:1.5em;
+}
+#list {
+    margin:2em;
+    color:#EBF4FA;
+    text-align:left;
+}
+.list {
+    margin:1em;
+    color:#EBF4FA;
+    text-align:left;
+}
+/* About */
+#stitch2 {
+    margin-top:1em;
+    width:37.5em;
+    height:51em;
+}
+#flux {
+    margin-top:3em;
+    width:37.5em;
+    height:28em;
+}
+#america {
+    margin-top:4em;
+    width:37.5em;
+    height:37.5em
+}
+#sheild {
+    margin-top:0em;
+    width:37.5em;
+    height:37em
+}
+#bike {
+    margin-top:2em;
+    width:37.5em;
+    height:21.8em
+}
+#game {
+    margin-top:1em;
+    width:37.5em;
+    height:40.2em;
+    ;
+}
+#things2 {
+    margin-top:1em;
+}
+.leisure {
+    margin-left:1em;
+}
+/* HTML */
+#stitch3 {
+    margin-top:0em;
+    width:37.5em;
+    height:45.2em;
+}
+#five {
+    margin-top:5em;
+    width:37.5em;
+    height:37.5em;
+}
+#things3 {
+    margin-top:0em
+}
+.things3 {
+    margin-top:3em
+}
+/* Hard Drive */
+#stitch4 {
+    margin-top:-0em;
+    width:37.5em;
+    height:37.5em;
+}
+#comp {
+    margin-top:1em;
+    width:37.5em;
+    height:27.9em;
+}
+#mother {
+    margin-top:0em;
+    width:37.5em;
+    height:23.4em;
+}
+#cpu {
+    margin-top:-3em;
+    width:25em;
+    height:25em;
+}
+#ram {
+    margin-top:-6em;
+    width:25em;
+    height:25em;
+}
+#drive {
+    margin-top:-2em;
+    width:25em;
+    height:25em;
+}
+#power {
+    margin-top:-1em;
+    width:37.5em;
+    height:26.6em;
+}
+#keyboard {
+    margin-top:-9em;
+    width:25em;
+    height:25em;
+}
+#mouse {
+    margin-top:-13em;
+    width:37.5em;
+    height:28.1em;
+}
+#monitor {
+    margin-top:-3em;
+    width:37.5em;
+    height:28.5em;
+}
+#things4 {
+    margin-top:0em
+}
+.things4 {
+    margin-top:5em
+}
+#together {
+    margin-top:-1.2em;
+    font-style:italic;
+    font-size:.7em;
+}
+.piece {
+    font-size:1.1em
+}
+/* Walt */
+#stitch5 {
+    margin-top:0em;
+    width:37.5em;
+    height:46.2em;
+}
+#mickey {
+    margin-top:0em;
+    width:37.5em;
+    height:38.6em;
+}
+#disneyland {
+    margin-top:0em;
+    width:37.5em;
+    height:21.4em;
+}
+#main_right {
+    background-color:#1F45FC;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    text-align:center;
+}
+#things5 {
+    margin-top:0em
+}
+.things5 {
+    margin-top:1em
+}
+/* E and Co */
+#stitch6 {
+    margin-top:0em;
+    width:37.5em;
+    height:28.1em;
+}
+#future {
+    margin-top:1em;
+}
+#dollar {
+    margin-top:2em;
+    width:37.5em;
+    height: 15.1em
+}
+#things6 {
+    margin-top:1em
+}
+.things6 {
+    margin-top:0em
+}
+/* Calculator */
+#display {
+    font-family:Arial;
+    width:192px;
+    height: 60px;
+    border: 1px white;
+    margin-bottom: 0px;
+    text-align:right;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    margin-left: -4px;
+    background-color:#3B353D;
+    color: white;
+    line-height:60px;
+    padding-right:5px;
+    padding-left:3px;
+    overflow:auto;
+}
+.button {
+    font-family:Arial;
+    background-color:#82CAFF;
+    display:inline-block;
+    height:50px;
+    width:50px;
+    border:0px solid black;
+    text-align:center;
+    transition:all 0.5s ease;
+    font-weight:bold;
+    margin-left:-4px;
+    line-height:50px;
+    font-size:16px;
+    cursor:pointer;
+}
+.button:hover {
+    background-color:teal;
+}
+.opp {
+    background-color:#0020C2;
+    color:white;
+}
+#clear {
+    background-color:#2848EA;
+    color:white;
+    cursor:pointer;
+}
+#clear:hover {
+    background-color:teal;
+}
+#equals {
+    font-family:Arial;
+    background-color: #2848EA;
+    display:inline-block;
+    height: 50px;
+    width: 100px;
+    border: 0px solid black;
+    text-align:center;
+    transition:all 0.5s ease;
+    font-weight:bold;
+    margin-left:-4px;
+    line-height:50px;
+    font-size:17px;
+    color:white;
+    cursor:pointer;
+}
+#equals:hover {
+    background-color:teal;
+}
+#sqrt {
+    background-color:#0020C2;
+    color:white
+    cursor:pointer;
+}
+#sqrt:hover {
+    background-color:teal;
+}
+#pi {
+    background-color:#0020C2;
+    color:white
+    cursor:pointer;
+}
+#pi:hover {
+    background-color:teal;
+}
+/* AAMTAWA */
+#instructions {
+    width:450px;
+    height:65px;
+    background-color:white;
+    border:2.5px groove blue;
+    cursor:pointer;
+}
+#Annie{
+    cursor:pointer;
+}
+#everything {
+    background-color:#ADD8E6;
+    width:500px;
+    height:300px;
+    border:1px solid black;
+}
+#player {
+    border-radius:50%;
+    background-color:black;
+    width:50px;
+    height:50px;
+    position:absolute; 
+    top:0px; 
+    left:0px;
+    background-color: red;
+}
+#floor {
+    background-color:green;
+    width:500px;
+    height:25px;
+    position:absolute;
+    top:720px;
+    border:1px solid black;
+    left:8px;
+}
+/* Detectype */
+#input {
+    font-size:1.5em;
+}
+#left-display {
+    font-family: Garamond;
+    border-style:solid;
+    border-color: aqua;
+    height:17em;
+    background-color:aqua;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+}
+#mytext {
+    height:10em;
+    width:13em
+}
+#groupdDisplay {
+    font-family: Garamond;
+    width:0em;
+}
+.tables {
+    font-family: Garamond;
+    border-style:groove;
+    width:45em;
+    height:.9em
+}
+.tablesE {
+    font-family: Garamond;
+    text-align:center;
+    border-style:groove;
+    width:1.2em;
+    height:.9em
+}
+/* Ravioli */
+#ravioliInstructions {
+    width:362px;
+    height:65px;
+    background-color:#2B60DE;
+    border-color:yellow;
+    cursor:pointer;
+}
+#burger {
+    position:relative;
+    width:350px;
+    height:55px;
+}
+#ravioliStart {
+    width:362px;
+    height:25px;
+    position:absolute;
+    background-color:#2B60DE;
+    border-color:yellow;
+    cursor:pointer;
+}
+#stark {
+    font-family:avenge2;
+    color: yellow;
+    text-decoration: none;
+}
+#ravioliTable {
+    background-image: url(http://www.filterforge.com/filters/11978.jpg)
+}
+td {
+    border:0px solid darkblue;
+    width:20px;
+    height: 20px;
+}
+#ravioli {
+    width:15px;
+    height:15px;
+}
+.crosshair {
+    cursor: crosshair;
+}
+/*Vindin*/
+#mainRight {
+    width:400em;
+    background-color:#2B60DE;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    text-align:left;
+    font-size:1em;
+    color: white;
+}
+#leftText{
+    float:left;
+    font-size: 1.59em;
+}
+pre{
+    margin-left: 2em;
+}
+#stitch7{
+    margin-top:3em;
+    margin-bottom:3em;
+    width: 30em;
+    height: 23em;
+}
+#vindin{
+    margin-bottom:3em;
+    width: 30em;
+    height: 23em;
+}

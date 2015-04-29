@@ -1,0 +1,64 @@
+@font-face {
+  font-family: disney;
+  src: url(waltograph42.otf);
+}
+@font-face {
+  font-family: disneyBold;
+  src: url(waltographUI.ttf);
+}
+@font-face {
+  font-family: land;
+  src: url(started-by-a-mouse.ttf);
+}
+@font-face {
+  font-family: bttf;
+  src: url(BTTF.ttf);
+}
+@font-face {
+  font-family: pac;
+  src: url(Pac-Font.ttf);
+}
+@font-face {
+  font-family: avenge;
+  src: url(heroesassembleital2.ttf);
+}
+@font-face {
+  font-family: avenge2;
+  src: url(heroesassemble2.ttf);
+}
+@font-face {
+  font-family: jedi;
+  src: url(Starjedi.ttf);
+}
+@font-face {
+  font-family: jones;
+  src: url(sfFedoraShadow.ttf);
+}
+@font-face {
+  font-family: potter;
+  src: url(HarryP__.ttf);
+}
+@font-face {
+  font-family: aladdin;
+  src: url(aladdin.ttf);
+}
+@font-face {
+  font-family: friends;
+  src: url(Friends_.ttf);
+}
+@font-face {
+  font-family: park;
+  src: url(JurassicPark.ttf);
+}
+@font-face {
+  font-family: pirates;
+  src: url(PiecesOfEight.ttf);
+}
+@font-face {
+  font-family: tron;
+  src: url(Tron.ttf);
+}
+body {
+  font-family: aladdin;
+  font-size: 45px;
+}

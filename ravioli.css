@@ -1,0 +1,71 @@
+@font-face {
+  font-family: avenge2;
+  src: url(Heroesassemble2.ttf);
+}
+body{
+    background-color:#71A6FF;
+}
+.navBar a {
+    text-decoration:none;
+    color: black;
+}
+.navBar {
+    margin-top:.4em;
+    height:2.4em;
+    width:8em;
+    font-size:1em;
+    border-top-left-radius:1em;
+    border-top-right-radius: 1em;
+    background-color:#356AE8;
+    border:blue;
+    margin-left:.4em;
+    font-weight:bold;
+    cursor:pointer;
+}
+.navBar:hover {
+    transform:scale(1.1);
+    background-color:#2B60DE;
+}
+#ravioliInstructions {
+    width:362px;
+    height:65px;
+    background-color:#2B60DE;
+    border-color:yellow;
+    cursor:pointer;
+}
+#burger {
+    position:relative;
+    width:350px;
+    height:55px;
+}
+#ravioliStart {
+    width:362px;
+    height:25px;
+    position:absolute;
+    background-color:#2B60DE;
+    border-color:yellow;
+    font-family:avenge2;
+    color: yellow;
+    text-decoration: none;
+    cursor:pointer;
+}
+#stark {
+    font-family:avenge2;
+    color: yellow;
+    text-decoration: none;
+}
+#ravioliTable {
+    background-image: url(http://www.filterforge.com/filters/11978.jpg)
+}
+td {
+    border:0px solid darkblue;
+    width:20px;
+    height: 20px;
+}
+#ravioli {
+    width:15px;
+    height:15px;
+}
+.crosshair {
+    cursor: crosshair;
+}

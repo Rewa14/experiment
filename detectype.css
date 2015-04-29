@@ -1,0 +1,68 @@
+body {
+    font-family:Garamond;
+    background-color:#56A5EC;
+}
+#header {
+    border:.5em;
+    border-color:#A6ED55;
+    border-style:solid;
+    background-color:#A6ED55;
+    border-radius:2.5em;
+}
+.name {
+    width:12em;
+    text-align:center;
+    font-size:2em;
+    border-color:#A6ED55
+}
+#title {
+    width:12em;
+    text-align:center;
+    font-size:3em;
+}
+a {
+    text-decoration:none;
+    color: black
+}
+.navBar {
+    margin-top:.4em;
+    height:2.4em;
+    width:8em;
+    font-size:1em;
+    border-top-left-radius:1em;
+    border-top-right-radius: 1em;
+    background-color:#A6ED55;
+    border:blue;
+    margin-left:.4em;
+    font-weight:bold;
+    cursor:pointer;
+}
+#input {
+    font-size:1.5em;
+}
+#left-display {
+    border-style:solid;
+    border-color: aqua;
+    height:17em;
+    background-color:aqua;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+}
+#mytext {
+    height:10em;
+    width:13em
+}
+#groupdDisplay {
+    width:0em;
+}
+.tables {
+    border-style:groove;
+    width:45em;
+    height:.9em
+}
+.tablesE {
+    text-align:center;
+    border-style:groove;
+    width:1.2em;
+    height:.9em
+}
