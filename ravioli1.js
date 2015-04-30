@@ -53,5 +53,5 @@ function checkKey(e) {
         playerX--;
     }
 
-    document.getElementById("spot" + playerX + playerY).innerHTML = "<img style='width:65%' src = 'http://mascot.crystalxp.net/png/autigone-kirby-gc-22880.png'/>";
+    document.getElementById("spot" + playerX + playerY).innerHTML = "<img style='width:88%' src = 'http://www.montefiore.ulg.ac.be/~quinet/gif/garfield_head.gif'/>";
 }
