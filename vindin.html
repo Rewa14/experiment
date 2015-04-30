@@ -89,8 +89,7 @@ Bot.prototype.botBrain = function() {
         
         // This Code finds the nearest Free Mine and goes in that direction by default //
         for(i = 0; i < bot.freeMines.length; i++) {
-            if(bot.findDistance(myPos, closestMine) > bot.findDistance(myPos, bot.freeMines[i]))
-            {
+            if(bot.findDistance(myPos, closestMine) > bot.findDistance(myPos, bot.freeMines[i])){
                 closestMine = bot.freeMines[i];
             }
         }
@@ -116,8 +115,7 @@ Bot.prototype.botBrain = function() {
         // This Code attacks enemy mines when there are <= 30% of mines left //
         else if (bot.freeMines.length <= 0.3 * allMines){
             for(i = 0; i < enemyMines.length; i++) {
-                if(bot.findDistance(myPos, closeEnemyMine) > bot.findDistance(myPos, enemyMines[i]))
-                {
+                if(bot.findDistance(myPos, closeEnemyMine) > bot.findDistance(myPos, enemyMines[i])){
                     closeEnemyMine = enemyMines[i];
                 }
             }
@@ -125,8 +123,7 @@ Bot.prototype.botBrain = function() {
             bot.goDir = bot.findPath(myPos, closeEnemyMine);
         }
         
-        // This code attacks enemies with less than double my health when there are <= 25% of mines 
-        left and my life <= 60 //
+        // This code attacks enemies with less than double my health when there are <= 25% of mines left and my life <= 60 //
         else if (bot.freeMines.length <= 0.25 * allMines && bot.yourBot.life >= 60){
             for (i = 0; i <  enemyBots.length; i++){
                 if (bot.yourBot.life > enemyBots[i].life * 2){

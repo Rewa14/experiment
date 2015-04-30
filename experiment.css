@@ -550,19 +550,19 @@ td {
     height: 20em;
 }
 #pac{
-    width:2em;
-    height:2em;
+    width:3em;
+    height:3em;
 }
 #mapA {
     margin-top:3em;
     margin-bottom:3em;
-    width: 30em;
-    height: 23em;
+    width: 37.5em;
+    height: 28.75em;
 }
 #mapB {
     margin-bottom:3em;
-    width: 30em;
-    height: 23em;
+    width: 37.5em;
+    height: 28.75em;
 }
 #dopey{
     margin-bottom:0em;
@@ -589,6 +589,7 @@ pre {
     overflow: scroll;
     background-color: #736AFF;
     height:30em;
+    width: 60em;
     margin-left: 2em;
     text-align:left;
     font-size:.5em;
