@@ -3,31 +3,43 @@
     src: url(Waltograph42.otf);
 }
 @font-face {
-  font-family: land;
-  src: url(Started-by-a-mouse.ttf);
+    font-family: land;
+    src: url(Started-by-a-mouse.ttf);
 }
 @font-face {
-  font-family: avenge2;
-  src: url(Heroesassemble2.ttf);
+    font-family: avenge2;
+    src: url(Heroesassemble2.ttf);
 }
 @font-face {
-  font-family: jones;
-  src: url(SfFedoraShadow.ttf);
+    font-family: avenge;
+    src: url(Heroesassembleital2.ttf);
+}
+@font-face {
+    font-family: pirates;
+    src: url(piecesOfEight.ttf);
+}
+@font-face {
+    font-family: ghost;
+    src: url(Ghostbus.ttf);
+}
+@font-face {
+    font-family: stark;
+    src: url(Stark.otf);
 }
 body {
     background-color:#71A6FF;
-    font-family: avenge2
+    font-family: stark;
 }
 #left-top {
     width:200em;
     height:0em;
     text-align:center
 }
-.header a{
+.header a {
     text-decoration:none;
     color: black;
 }
-.header a:hover{
+.header a:hover {
     text-decoration:none;
     color: black;
 }
@@ -42,7 +54,6 @@ body {
     width:37.5em;
     height:13.4em;
     cursor:pointer;
-
 }
 #right-top {
     font-family: disney;
@@ -53,13 +64,12 @@ body {
 }
 .navBar a {
     text-decoration:none;
-    color: black;
+    color: yellow;
 }
 .navBar {
     margin-top:.4em;
-    height:2.4em;
-    width:8em;
-    font-size:1em;
+    height:2em;
+    width:7em;
     border-top-left-radius:1em;
     border-top-right-radius: 1em;
     background-color:#356AE8;
@@ -67,6 +77,8 @@ body {
     margin-left:.4em;
     font-weight:bold;
     cursor:pointer;
+    font-family:pirates;
+    font-size:1.186em;
 }
 .navBar:hover {
     transform:scale(1.1);
@@ -92,7 +104,6 @@ body {
     color:yellow;
     font-size:.8em;
 }
-/* Intro */
 table a {
     text-decoration:none;
     color:yellow
@@ -117,9 +128,13 @@ td {
     border-top-left-radius:1em;
     border-top-right-radius:1em;
     text-align:center;
-    font-size:2em;
+    font-size:1.8em;
 }
-#stitch {
+h2{
+    font-family:avenge2
+}
+/* Intro */
+ #stitch {
     margin-top:0em;
     width:37.5em;
     height:37.1em;
@@ -127,7 +142,7 @@ td {
 #laptop {
     margin-top:5em;
     width:37.5em;
-    height:37.4em;
+    height:32.5em;
 }
 #summit {
     margin-left:2em;
@@ -152,7 +167,7 @@ td {
     text-align:left;
 }
 /* About */
-#stitch2 {
+ #stitch2 {
     margin-top:1em;
     width:37.5em;
     height:51em;
@@ -190,7 +205,7 @@ td {
     margin-left:1em;
 }
 /* HTML */
-#stitch3 {
+ #stitch3 {
     margin-top:0em;
     width:37.5em;
     height:45.2em;
@@ -207,15 +222,10 @@ td {
     margin-top:3em
 }
 /* Hard Drive */
-#stitch4 {
+ #stitch4 {
     margin-top:-0em;
     width:37.5em;
     height:37.5em;
-}
-#comp {
-    margin-top:1em;
-    width:37.5em;
-    height:27.9em;
 }
 #mother {
     margin-top:0em;
@@ -265,14 +275,14 @@ td {
 }
 #together {
     margin-top:-1.2em;
-    font-style:italic;
     font-size:.7em;
+    font-family:avenge;
 }
 .piece {
     font-size:1.1em
 }
 /* Walt */
-#stitch5 {
+ #stitch5 {
     margin-top:0em;
     width:37.5em;
     height:46.2em;
@@ -300,7 +310,7 @@ td {
     margin-top:1em
 }
 /* E and Co */
-#stitch6 {
+ #stitch6 {
     margin-top:0em;
     width:37.5em;
     height:28.1em;
@@ -336,6 +346,9 @@ td {
     padding-right:5px;
     padding-left:3px;
     overflow:auto;
+}
+#calc{
+    font-size:1em;
 }
 .button {
     font-family:Arial;
@@ -388,29 +401,27 @@ td {
 }
 #sqrt {
     background-color:#0020C2;
-    color:white
-    cursor:pointer;
+    color:white cursor:pointer;
 }
 #sqrt:hover {
     background-color:teal;
 }
 #pi {
     background-color:#0020C2;
-    color:white
-    cursor:pointer;
+    color:white cursor:pointer;
 }
 #pi:hover {
     background-color:teal;
 }
 /* AAMTAWA */
-#instructions {
+ #instructions {
     width:450px;
     height:65px;
     background-color:white;
     border:2.5px groove blue;
     cursor:pointer;
 }
-#Annie{
+#Annie {
     cursor:pointer;
 }
 #everything {
@@ -424,8 +435,8 @@ td {
     background-color:black;
     width:50px;
     height:50px;
-    position:absolute; 
-    top:0px; 
+    position:absolute;
+    top:0px;
     left:0px;
     background-color: red;
 }
@@ -439,15 +450,25 @@ td {
     left:8px;
 }
 /* Detectype */
+#groupTitle{
+    text-align:center;
+    background-color: #2B60DE;
+    width:30em;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:pointer;
+    font-family: Garamond;
+    border-radius: 1.3em;
+}
 #input {
     font-size:1.5em;
 }
 #left-display {
-    font-family: Garamond;
+    text-align:center;
     border-style:solid;
-    border-color: aqua;
+    border-color: #2B60DE;
     height:17em;
-    background-color:aqua;
+    background-color:#2B60DE;
     border-top-left-radius:1em;
     border-top-right-radius:1em;
 }
@@ -461,19 +482,20 @@ td {
 }
 .tables {
     font-family: Garamond;
-    border-style:groove;
+    border: solid #2B60DE;
     width:45em;
     height:.9em
 }
 .tablesE {
     font-family: Garamond;
     text-align:center;
-    border-style:groove;
+    border: solid #2B60DE;
+    border-radius:.7em;
     width:1.2em;
     height:.9em
 }
 /* Ravioli */
-#ravioliInstructions {
+ #ravioliInstructions {
     width:362px;
     height:65px;
     background-color:#2B60DE;
@@ -513,31 +535,54 @@ td {
 .crosshair {
     cursor: crosshair;
 }
-/*Vindin*/
-#mainRight {
-    width:400em;
-    background-color:#2B60DE;
-    border-top-left-radius:1em;
-    border-top-right-radius:1em;
-    text-align:left;
-    font-size:1em;
-    color: white;
+/*Vindin*/ 
+#stitch7 {
+    margin-bottom:2em;
+    width: 14.3em;
+    height: 20em;
 }
-#leftText{
-    float:left;
-    font-size: 1.59em;
+#pac{
+    width:2em;
+    height:2em;
 }
-pre{
-    margin-left: 2em;
-}
-#stitch7{
+#mapA {
     margin-top:3em;
     margin-bottom:3em;
     width: 30em;
     height: 23em;
 }
-#vindin{
+#mapB {
     margin-bottom:3em;
     width: 30em;
     height: 23em;
+}
+#dopey{
+    margin-bottom:0em;
+    width: 18.4em;
+    height: 20em;
+}
+#mainRight {
+    width:400em;
+    background-color:#2B60DE;
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+}
+#things6 {
+    margin-top:0em
+}
+.things6 {
+    margin-top:0em;
+}
+#leftText {
+    float:left;
+    font-size: 1.3em;
+}
+pre {
+    overflow: scroll;
+    background-color: #736AFF;
+    height:30em;
+    margin-left: 2em;
+    text-align:left;
+    font-size:.5em;
+    color: white;
 }

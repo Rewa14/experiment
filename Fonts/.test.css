@@ -58,7 +58,19 @@
   font-family: tron;
   src: url(Tron.ttf);
 }
+@font-face {
+    font-family: ghost;
+    src: url(ghostbus.ttf);
+}
+@font-face {
+    font-family: fedora;
+    src: url(sfFedoraTitles.ttf);
+}
+@font-face {
+    font-family: stark;
+    src: url(stark.otf);
+}
 body {
-  font-family: aladdin;
+  font-family: jones;
   font-size: 45px;
 }
