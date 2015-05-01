@@ -70,7 +70,23 @@
     font-family: stark;
     src: url(stark.otf);
 }
+@font-face {
+    font-family: PF;
+    src: url(PhineasAndFerbFontForNick.ttf);
+}
+@font-face {
+    font-family: stitch;
+    src: url(BukaBird.ttf);
+}
+@font-face {
+    font-family: mansion;
+    src: url(thehauntedmansion.ttf);
+}
+@font-face {
+    font-family: who;
+    src: url(doctor_who.ttf);
+}
 body {
-  font-family: jones;
+  font-family: who;
   font-size: 45px;
 }
