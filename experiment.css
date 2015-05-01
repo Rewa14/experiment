@@ -41,7 +41,7 @@ body {
 }
 .header a:hover {
     text-decoration:none;
-    color: black;
+    color: white;
 }
 .header {
     border:0em;
