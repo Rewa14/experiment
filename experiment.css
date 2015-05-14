@@ -1,30 +1,30 @@
 @font-face {
     font-family: disney;
-    src: url(/Fonts/waltograph42.otf);
+    src: url(Fonts/waltograph42.otf);
 }
 @font-face {
     font-family: land;
-    src: url(/Fonts/started-by-a-mouse.ttf);
+    src: url(Fonts/started-by-a-mouse.ttf);
 }
 @font-face {
     font-family: avenge2;
-    src: url(/Fonts/heroesassemble2.ttf);
+    src: url(Fonts/heroesassemble2.ttf);
 }
 @font-face {
     font-family: avenge;
-    src: url(/Fonts/heroesassembleital2.ttf);
+    src: url(Fonts/heroesassembleital2.ttf);
 }
 @font-face {
     font-family: pirates;
-    src: url(/Fonts/PiecesOfEight.ttf);
+    src: url(Fonts/PiecesOfEight.ttf);
 }
 @font-face {
     font-family: ghost;
-    src: url(/Fonts/ghostbus.ttf);
+    src: url(Fonts/ghostbus.ttf);
 }
 @font-face {
     font-family: stark;
-    src: url(/Fonts/stark.otf);
+    src: url(Fonts/stark.otf);
 }
 body {
     background-color:#71A6FF;
