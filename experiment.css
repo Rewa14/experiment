@@ -134,7 +134,7 @@ td {
     text-align:center;
     font-size:1.8em;
 }
-h2{
+h2 {
     font-family:avenge2
 }
 /* Intro */
@@ -204,7 +204,7 @@ h2{
 #things2 {
     margin-top:1em;
 }
-topic{
+topic {
     color:lightgreen;
 }
 .leisure {
@@ -340,7 +340,7 @@ topic{
     margin-top:0em
 }
 /* Calculator */
-#display {
+ #display {
     font-family:Arial;
     width:272px;
     height: 60px;
@@ -357,7 +357,7 @@ topic{
     padding-left:3px;
     overflow:auto;
 }
-#calc{
+#calc {
     font-size:1em;
 }
 .button {
@@ -411,7 +411,7 @@ topic{
 }
 #sqrt {
     background-color:#2B60DE;
-    color:white; 
+    color:white;
     cursor: url('P7.Pointer.png'), pointer;
 }
 #sqrt:hover {
@@ -419,7 +419,7 @@ topic{
 }
 #pi {
     background-color:#2B60DE;
-    color:white; 
+    color:white;
     cursor: url('P7.Pointer.png'), pointer;
 }
 #pi:hover {
@@ -462,7 +462,7 @@ topic{
     left:8px;
 }
 /* Detectype */
-#groupTitle{
+ #groupTitle {
     text-align:center;
     background-color: #2B60DE;
     width:30em;
@@ -525,12 +525,13 @@ topic{
     position:absolute;
     background-color:#2B60DE;
     border-color:yellow;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor:url('P7.Pointer.png'), pointer;
+    font-family:avenge2;
+    color:yellow;
 }
 #stark {
-    font-family:avenge2;
-    color: yellow;
     text-decoration: none;
+    color:yellow;
 }
 #ravioliTable {
     background-image: url(http://www.filterforge.com/filters/11978.jpg)
@@ -538,7 +539,7 @@ topic{
 td {
     border:0px solid darkblue;
     width:20px;
-    height: 20px;
+    height:20px;
 }
 #ravioli {
     width:15px;
@@ -547,13 +548,13 @@ td {
 .crosshair {
     cursor: crosshair;
 }
-/*Vindin*/ 
-#stitch7 {
+/*Vindin*/
+ #stitch7 {
     margin-bottom:2em;
     width: 14.3em;
     height: 20em;
 }
-#pac{
+#pac {
     width:3em;
     height:3em;
 }
@@ -568,7 +569,7 @@ td {
     width: 37.5em;
     height: 28.75em;
 }
-#dopey{
+#dopey {
     margin-bottom:0em;
     width: 18.4em;
     height: 20em;
