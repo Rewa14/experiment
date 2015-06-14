@@ -53,7 +53,7 @@ body {
 #experiment {
     width:37.5em;
     height:13.4em;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 #right-top {
     font-family: disney;
@@ -66,7 +66,7 @@ body {
 .navBar a {
     text-decoration:none;
     color: yellow;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 .navBar {
     margin-top:.4em;
@@ -78,7 +78,7 @@ body {
     border:blue;
     margin-left:.4em;
     font-weight:bold;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
     font-family:pirates;
     font-size:1.186em;
 }
@@ -105,12 +105,12 @@ body {
     text-decoration:none;
     color:yellow;
     font-size:.8em;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 table a {
     text-decoration:none;
     color:yellow;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 table a:hover {
     text-decoration:none;
@@ -322,8 +322,7 @@ topic {
 /* E and Co */
  #stitch6 {
     margin-top:0em;
-    width:37.5em;
-    height:28.1em;
+    width:95%;
 }
 #future {
     margin-top:1em;
@@ -332,6 +331,10 @@ topic {
     margin-top:2em;
     width:37.5em;
     height: 15.1em
+}
+#industries{
+    margin-top:2em; 
+    width:95%;
 }
 #things6 {
     margin-top:1em
@@ -373,7 +376,7 @@ topic {
     margin-left:-4px;
     line-height:50px;
     font-size:16px;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 .button:hover {
     background-color:#0000A0;
@@ -385,7 +388,7 @@ topic {
 #clear {
     background-color:blue;
     color:white;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 #clear:hover {
     background-color:#0000A0;
@@ -404,7 +407,7 @@ topic {
     line-height:50px;
     font-size:17px;
     color:white;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 #equals:hover {
     background-color:#0000A0;
@@ -412,7 +415,7 @@ topic {
 #sqrt {
     background-color:#2B60DE;
     color:white;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 #sqrt:hover {
     background-color:#0000A0;
@@ -420,7 +423,7 @@ topic {
 #pi {
     background-color:#2B60DE;
     color:white;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 #pi:hover {
     background-color:#0000A0;
@@ -431,10 +434,10 @@ topic {
     height:65px;
     background-color:white;
     border:2.5px groove blue;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 #Annie {
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 #everything {
     background-color:#ADD8E6;
@@ -468,7 +471,7 @@ topic {
     width:30em;
     margin-left: auto;
     margin-right: auto;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
     font-family: Garamond;
     border-radius: 1.3em;
 }
@@ -512,7 +515,7 @@ topic {
     height:65px;
     background-color:#2B60DE;
     border-color:yellow;
-    cursor: url('P7.Pointer.png'), pointer;
+    cursor: url('P07.Pointer.png'), pointer;
 }
 #burger {
     position:relative;
@@ -525,7 +528,7 @@ topic {
     position:absolute;
     background-color:#2B60DE;
     border-color:yellow;
-    cursor:url('P7.Pointer.png'), pointer;
+    cursor:url('P07.Pointer.png'), pointer;
     font-family:avenge2;
     color:yellow;
 }

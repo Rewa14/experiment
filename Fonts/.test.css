@@ -87,6 +87,11 @@
     src: url(doctor_who.ttf);
 }
 body {
-  font-family: who;
-  font-size: 45px;
+  font-family: land;
+  font-size: 3em;
+  background-color:white;
+}
+#current{
+    font-size:1300em;
+    text-align:center;
 }
